@@ -17,9 +17,9 @@ class ViewController: UIViewController {
         
         self.view.backgroundColor = UIColor(red: 9 / 255.0, green: 21 / 255.0, blue: 37 / 255.0, alpha: 1.0)
         
-        let lineColor = UIColor(red: 77 / 255.0, green: 255 / 255.0, blue: 182 / 255.0, alpha: 1.0)
+        let lineColor = UIColor.whiteColor()
 
-        let lineFrame = CGRect(x: self.view.frame.width * 0.5 - 100, y: 100, width: 200, height: 100)
+        let lineFrame = CGRect(x: self.view.frame.width * 0.5 - 100, y: 100, width: 50, height: 50)
         let lineLoader = LiquidLoader(frame: lineFrame, effect: .GrowLine(lineColor))
         
         let circleFrame = CGRect(x: self.view.frame.width * 0.5 - 100, y: 200, width: 200, height: 200)

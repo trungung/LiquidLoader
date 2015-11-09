@@ -12,7 +12,7 @@ import UIKit
 class LiquidLoadEffect : NSObject {
 
     var circleScale: CGFloat = 1.17
-    var moveScale: CGFloat = 0.80
+    var moveScale: CGFloat = 1.5
     var color = UIColor.whiteColor()
 
     var engine: SimpleCircleLiquidEngine?
